@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anshika Srivashtava| Basic Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #007bff;
+            color: #fff;
+            padding: 8px;
+            text-align: center;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        h2 {
+            color: #007bff;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        a {
+            color: #007bff;
+        }
+
+        a:hover {
+            transform: scale(2);
+        }
+
+        nav ul li a {S
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+            margin: 10px;
+        }
+
+        .project {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+            box-shadow: 0 1px 5px rgba(0, 0, 0);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form label {
+            margin: 5px 0;
+        }
+
+        form input {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 10px;
+            background: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            animation: btnAnimation 2s ease-in-out infinite;
+        }
+
+        @keyframes btnAnimation {
+            0% {
+                transform: rotateY(0deg) scale(1);
+            }
+
+            50% {
+                transform: rotateY(20deg) scale(1.03);
+            }
+
+            100% {
+                transform: rotateY(0deg) scale(1);
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            position: relative;
+            bottom: 0;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Anshika Srivastava</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div>
+            <h2>About Me</h2>
+            <p>I am a passionate Python Full Stack Developer with expertise in building scalable web applications and
+                dynamic websites.
+                With a strong foundation in both front-end and back-end technologies, I thrive on transforming ideas
+                into
+                functional and
+                user-friendly solutions.</p>
+        </div>
+        <div>
+            <h2>Approach</h2>
+            <p>I am committed to writing clean, maintainable code and adhering to best practices in software
+                development. My
+                collaborative nature allows me to work effectively in agile teams, and I enjoy tackling challenges and
+                continuously
+                learning new technologies.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Top Skills</h2>
+        <ul>
+            <li><strong>Languages: </strong>Python, JavaScript, HTML, CSS</li>
+            <li><strong>Frameworks: </strong>Flask, Bootstrap</li>
+            <li><strong>Databases: </strong>SQLAlchemy, MySQL</li>
+            <li><strong>Tools and Technologies: </strong>VS Code, Pycharm, Google Colaboratory, Git, APIs, RESTful APIs
+            </li>
+            <li><strong>Cloud Services: </strong>Render, Heroku</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Personal Portfolio</h3>
+            <p>This is a portfolio website built with Flask and Bootstrap. It showcases various projects and provides a
+                personal
+                introduction. The website features a clean, responsive design with modern UI elements.</p>
+            <a href="https://github.com/shivashishyadav/personal-portfolio2024.git" target="_blank">View Code</a><br>
+            <a href="https://shivashishyadav.onrender.com/" target="_blank">Live Preview</a>
+        </div>
+        <div class="project">
+            <h3>Cafe Navigator</h3>
+            <p>CafeNavigator is a web app designed for coffee lovers to discover and manage their favorite cafes. Built
+                with Flask and
+                styled using Bootstrap, the app features a clean interface where users can view and add cafes. Each
+                listing includes the
+                cafe's name, Google Maps location, opening and closing times, coffee rating, and WiFi strength.</p>
+            <a href="https://github.com/shivashishyadav/Cafe-Navigator.git" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>ATM Machine</h3>
+            <p>This ATM Machine application is a simple Python-based simulation using Tkinter for the graphical user
+                interface. It
+                allows users to manage ATM transactions such as withdrawing cash and generating new ATM PINs. The
+                application reads and
+                writes data to a JSON file, which contains information about ATM cash reserves and user accounts.</p>
+            <a href="https://github.com/shivashishyadav/Atm-Machine.git" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Kanye Quotes Generator</h3>
+            <p>The Kanye Quotes Generator! built with Python Tkinter and requests library, fetches and
+                displays random
+                quotes from Kanye West using the Kanye REST API. It provides a simple graphical user interface (GUI) to
+                enjoy
+                inspirational quotes from Kanye.</p>
+            <a href="https://github.com/shivashishyadav/kanye-project.git" target="_blank">View Project</a>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact">
+
+        <div>
+            <h2>Social Profile</h2>
+            <p>If you'd like to get in touch, feel free to reach out via <a
+                    href="mailto:shivansh.25082024@gmail.com">email</a>
+                or connect with me on <a href="https://www.linkedin.com/in/shivashish-yadav-196275310"
+                    target="_blank">LinkedIn</a>.</p>
+        </div>
+
+        <div>
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Anshika Srivastava. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
